@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compras</title>
+</head>
+<H1>Informações para entrega</H1>
+<body>
+    <div>
+        <input type="text" name="nome" placeholder="digite seu nome"><br>
+        <input type="number" name="idade" placeholder="Idade"><br>
+        <input type="text" name="cpfCnpj" placeholder="digite seu CPF ou CNPJ"><br>
+    </div><br>
+    <div>
+        <label>Digite seu endereço contendo sua cidade, bairro, rua e número.</label><br>
+        <textarea cols="30" rows="1"></textarea><br>
+        <label>UF</label>
+        <select name="estado">
+            <option value="rj">Rio de janeiro</option>
+            <option value="ac">Acre</option>
+            <option value="ce">Ceará</option>
+            <option value="ap">Amapá</option>
+        </select>
+    </div>
+
+    <div>
+        <Input type="checkbox" value="confirm">O endereço de entrega é o mesmo de cobrança
+    </div>
+    <br>
+    <button onclick="alert('tente novamente')">Incluir endereço</button>
+    
+</body>
+</html>
