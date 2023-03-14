@@ -11,3 +11,7 @@ h3{
 ul{
     color: rgb(35, 35, 58);
 }
+a{
+    display: flex;
+    justify-content: right;
+}
