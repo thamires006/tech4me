@@ -1,0 +1,16 @@
+caption{
+    background-color: rgb(15,82,137);
+}
+.título{
+    background-color: rgb(104,196,225);
+}
+tbody{
+    background-color: rgb(199,231,242);
+}
+.Posição{
+    background-color: rgb(194,191,193);
+}
+body{
+    display: flex;
+    justify-content: center;
+}
