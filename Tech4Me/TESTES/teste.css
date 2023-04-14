@@ -1,0 +1,25 @@
+body{
+    background-color: #758ECD;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+button{
+    border-radius: 5px;
+    width: 150px;
+    padding: 8px;
+    color: white;
+    background-color: brown;
+    transition: 1s ease-in-out;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 25px;
+    animation: borda 4s infinite;
+}
+
+button:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+

@@ -1,0 +1,77 @@
+.navbar-brand {
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    text-shadow: rgb(170, 170, 170) 2px 4px 1px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.navbar-letra-personalizada {
+    color: rgb(252, 0, 84);
+}
+
+.collapse {
+    justify-content: flex-end;
+}
+
+.btn {
+    margin-left: 0.5em;
+}
+
+.navbar-login {
+    color: black;
+    text-decoration: none;
+}
+
+.secao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    background-color: rgb(245, 131, 131);
+}
+
+img {
+    object-fit: cover;
+}
+
+.secao-imagem {
+    width: 400px;
+    height: 250px;
+}
+
+.secao-link {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: rgb(255, 0, 21);
+}
+
+.card {
+    margin: 0 auto;
+    width: 20% !important;
+}
+
+
+.card-pai--h5 {
+    display: flex;
+    justify-content: center;
+}
+
+.secao-formulario {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 82%;
+    margin: 0 auto;
+}
+
+.form-control {
+    width: 40% !important;
+}
+
+.botao-formulario {
+    width: 15%;
+}
