@@ -1,0 +1,20 @@
+h1{
+    background-color: rgb(15, 15, 63);
+    width: 460px;
+    border-radius: 10%;
+    color: rgb(73, 73, 207);
+}
+
+body {
+    background-color: rgb(19, 19, 81);
+}
+
+.pontos {
+    background-color: rgb(30, 30, 135);
+    width: 460px;
+    border-radius: 5%;
+}
+
+a {
+    color: aqua;
+}

@@ -1,0 +1,41 @@
+body{
+    background: linear-gradient(-128deg, rgba(255, 144, 256, 15), blue);
+    background-attachment: fixed;
+}
+.nmr{
+    height: 5px;
+    margin: 5px;
+    border-radius: 10%;
+    text-align: center;
+    animation: enquete  5s ease-in-out;
+}
+@keyframes enquete {
+    0%{
+        width: 0%;
+    }
+}
+.churras{
+    width: 350px;
+    height: 100px;
+    background-color: brown;
+}
+.strogon{
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+}
+.empadão{
+    width: 250px;
+    height: 100px;
+    background-color: orange;
+}
+.lasanha{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+}
+.jiló{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
